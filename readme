@@ -1,0 +1,5 @@
+Installing:
+1. bash setup_ubuntu.sh
+2. Configure access to db in /yelp/settings.py in DB_USER and DB_PASSWORD constants.
+3. To run crawler - execute "scrapy crawl yelp_spider -a link=" and provide link to yelp business.
+
